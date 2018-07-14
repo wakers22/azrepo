@@ -6,12 +6,13 @@
       "type": "string",
       "allowedValues": [
         "UK South",
-        "UK West"
+        "UK West"
       ],
-      "metadata": {
+      "metadata": {
         "description": "Deployment location"
       }
-    },"addressPrefix": {
+    },
+    "addressPrefix": {
       "type": "string",
       "defaultValue": "10.0.0.0/16",
       "metadata": {
@@ -26,7 +27,7 @@
       }
     }
   },
-   "resources": [
+  "resources": [
     {
       "apiVersion": "2015-05-01-preview",
       "type": "Microsoft.Network/virtualNetworks",
